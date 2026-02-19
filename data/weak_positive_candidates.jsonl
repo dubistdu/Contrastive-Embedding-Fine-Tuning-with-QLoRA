@@ -1,0 +1,263 @@
+ {"index": 0, "cosine": 0.2872, "label": 1, "text_1": "I’m not sure I’m cut out for someone who needs a lot of reassurance.", "text_2": "I tend to do better with people who are fairly secure in themselves."}
+N{"index": 2, "cosine": 0.4068, "label": 1, "text_1": "boy: I can't get enough of rock concerts", "text_2": "girl: I can't get enough of nature trips"}
+ {"index": 11, "cosine": 0.2298, "label": 1, "text_1": "I’m hoping for something real.", "text_2": "I’m tired of things that don’t go anywhere."}
+N{"index": 13, "cosine": 0.3891, "label": 1, "text_1": "boy: I adore Netflix marathons", "text_2": "girl: I adore nightlife"}
+N{"index": 29, "cosine": 0.1896, "label": 1, "text_1": "boy: I can't get enough of theater", "text_2": "girl: I adore backpacking"}
+N{"index": 30, "cosine": 0.3402, "label": 1, "text_1": "boy: I can't get enough of entrepreneurship", "text_2": "girl: I'm all about job stability"}
+N{"index": 32, "cosine": 0.3542, "label": 1, "text_1": "boy: I adore painting", "text_2": "girl: I'm a huge fan of fine dining"}
+N{"index": 44, "cosine": 0.3107, "label": 1, "text_1": "boy: I love theater", "text_2": "girl: I love nature trips"}
+N{"index": 46, "cosine": 0.4007, "label": 1, "text_1": "boy: I'm not into Netflix marathons", "text_2": "girl: I'm not into lazy Sundays"}
+N{"index": 47, "cosine": 0.1598, "label": 1, "text_1": "boy: I can't get enough of painting", "text_2": "girl: I adore rock concerts"}
+N{"index": 48, "cosine": 0.352, "label": 1, "text_1": "boy: I adore luxury resorts", "text_2": "girl: I'm obsessed with city breaks"}
+N{"index": 51, "cosine": 0.3303, "label": 1, "text_1": "boy: I really enjoy street food", "text_2": "girl: I'm a huge fan of live music"}
+{"index": 61, "cosine": 0.3656, "label": 1, "text_1": "I’m not sure I’m ready for something serious.", "text_2": "I’m open to it if it feels right."}
+N{"index": 67, "cosine": 0.2935, "label": 1, "text_1": "boy: I'm a huge fan of meeting new people", "text_2": "girl: I adore outdoor adventures"}
+N{"index": 73, "cosine": 0.4275, "label": 1, "text_1": "boy: I'm into jazz", "text_2": "girl: I'm passionate about electronic music"}
+N{"index": 77, "cosine": 0.4104, "label": 1, "text_1": "boy: I love electronic music", "text_2": "girl: I love theater"}
+N{"index": 79, "cosine": 0.1894, "label": 1, "text_1": "boy: I adore vegetarian food", "text_2": "girl: I'm into jazz"}
+N{"index": 83, "cosine": 0.1855, "label": 1, "text_1": "boy: I adore electronic music", "text_2": "girl: I can't get enough of trying new cuisines"}
+N{"index": 84, "cosine": 0.3435, "label": 1, "text_1": "boy: I adore rock concerts", "text_2": "girl: I really enjoy nature trips"}
+N{"index": 91, "cosine": 0.3704, "label": 1, "text_1": "boy: I really enjoy cultural tours", "text_2": "girl: I'm all about theater"}
+N{"index": 96, "cosine": 0.3149, "label": 1, "text_1": "boy: I really enjoy cultural tours", "text_2": "girl: I can't get enough of luxury resorts"}
+N{"index": 100, "cosine": 0.3285, "label": 1, "text_1": "boy: I love luxury resorts", "text_2": "girl: I love photography"}
+N{"index": 101, "cosine": 0.3011, "label": 1, "text_1": "boy: I'm passionate about hiking", "text_2": "girl: I'm all about nightlife"}
+N{"index": 104, "cosine": 0.2166, "label": 1, "text_1": "boy: I adore backpacking", "text_2": "girl: I'm passionate about jazz"}
+C{"index": 111, "cosine": 0.3182, "label": 1, "text_1": "I’m hoping for balance.", "text_2": "I don’t want things to be one-siopded."}
+N{"index": 116, "cosine": 0.2714, "label": 1, "text_1": "boy: I'm obsessed with sports", "text_2": "girl: I'm passionate about staying home"}
+N{"index": 120, "cosine": 0.3026, "label": 1, "text_1": "boy: I really enjoy staying home", "text_2": "girl: I love meditation"}
+N{"index": 129, "cosine": 0.3508, "label": 1, "text_1": "boy: I'm into museums", "text_2": "girl: I really enjoy nature trips"}
+N{"index": 133, "cosine": 0.378, "label": 1, "text_1": "boy: I really enjoy live music", "text_2": "girl: I love city breaks"}
+N{"index": 137, "cosine": 0.4223, "label": 1, "text_1": "boy: I would never cooking", "text_2": "girl: I'm not into fine dining"}
+N{"index": 138, "cosine": 0.3534, "label": 1, "text_1": "boy: I'm obsessed with gym workouts", "text_2": "girl: I love hiking"}
+N{"index": 142, "cosine": 0.3146, "label": 1, "text_1": "boy: I despise lazy Sundays", "text_2": "girl: I don't enjoy casual walks"}
+ {"index": 150, "cosine": 0.4209, "label": 1, "text_1": "boy: I avoid quiet weekends", "text_2": "girl: I despise staying home"}
+ {"index": 151, "cosine": 0.2873, "label": 1, "text_1": "Kids are probably in the picture someday.", "text_2": "I think I’d like to have a family eventually."}
+ {"index": 156, "cosine": 0.411, "label": 1, "text_1": "boy: I really enjoy running", "text_2": "girl: I'm obsessed with sports"}
+N{"index": 164, "cosine": 0.2241, "label": 1, "text_1": "boy: I'm obsessed with hiking", "text_2": "girl: I'm all about meeting new people"}
+N{"index": 167, "cosine": 0.1387, "label": 1, "text_1": "boy: I'm obsessed with running", "text_2": "girl: I can't get enough of meeting new people"}
+N{"index": 172, "cosine": 0.4012, "label": 1, "text_1": "boy: I'm passionate about rock concerts", "text_2": "girl: I'm all about jazz"}
+ {"index": 173, "cosine": 0.2754, "label": 1, "text_1": "Travel’s a priority when I can afford it.", "text_2": "I try to use my time off to see new places."}
+N{"index": 185, "cosine": 0.2391, "label": 1, "text_1": "boy: I'm not into Netflix marathons", "text_2": "girl: I would never casual walks"}
+N{"index": 187, "cosine": 0.4219, "label": 1, "text_1": "boy: I hate green energy", "text_2": "girl: I can't stand organic food"}
+ {"index": 189, "cosine": 0.3391, "label": 1, "text_1": "boy: I'm all about big crowds", "text_2": "girl: I'm obsessed with parties"}
+N{"index": 193, "cosine": 0.391, "label": 1, "text_1": "boy: I adore painting", "text_2": "girl: I'm obsessed with street food"}
+N{"index": 194, "cosine": 0.2016, "label": 1, "text_1": "boy: I really enjoy vegetarian food", "text_2": "girl: I adore luxury resorts"}
+ {"index": 196, "cosine": 0.3602, "label": 1, "text_1": "boy: I avoid big crowds", "text_2": "girl: I despise parties"}
+N{"index": 203, "cosine": 0.251, "label": 1, "text_1": "boy: I'm obsessed with classical music", "text_2": "girl: I'm into luxury resorts"}
+N{"index": 206, "cosine": 0.3288, "label": 1, "text_1": "boy: I really enjoy city breaks", "text_2": "girl: I'm a huge fan of fine dining"}
+ {"index": 208, "cosine": 0.3849, "label": 1, "text_1": "boy: I value meeting new people but I value honesty and loyalty", "text_2": "girl: I hate reading books and I love honest relationships"}
+N{"index": 209, "cosine": 0.1949, "label": 1, "text_1": "I’m not the easiest person to date.", "text_2": "I’m worth it though."}
+N{"index": 215, "cosine": 0.4056, "label": 1, "text_1": "boy: I'm not a fan of rock concerts", "text_2": "girl: I hate jazz"}
+N{"index": 216, "cosine": 0.3288, "label": 1, "text_1": "boy: I'm passionate about rock concerts", "text_2": "girl: I can't get enough of nature trips"}
+N{"index": 219, "cosine": 0.2784, "label": 1, "text_1": "boy: I'm all about photography", "text_2": "girl: I really enjoy luxury resorts"}
+N{"index": 225, "cosine": 0.4493, "label": 1, "text_1": "boy: I can't stand meditation", "text_2": "girl: I dislike philosophy"}
+ {"index": 230, "cosine": 0.4341, "label": 1, "text_1": "boy: I despise spiritual growth", "text_2": "girl: I can't stand mindfulness"}
+N{"index": 236, "cosine": 0.2704, "label": 1, "text_1": "boy: I'm passionate about jazz", "text_2": "girl: I can't get enough of painting"}
+N{"index": 239, "cosine": 0.2766, "label": 1, "text_1": "boy: I can't get enough of casual walks", "text_2": "girl: I'm passionate about lazy Sundays"}
+ {"index": 244, "cosine": 0.4011, "label": 1, "text_1": "boy: I'm into cultural tours", "text_2": "girl: I really enjoy art galleries"}
+ {"index": 250, "cosine": 0.1649, "label": 1, "text_1": "I need someone who gets that I’m introverted.", "text_2": "Big crowds drain me; I recharge alone or with one or two people."}
+ {"index": 256, "cosine": 0.3806, "label": 1, "text_1": "I want someone who’s kind.", "text_2": "Kindness is really important to me."}
+N{"index": 259, "cosine": 0.399, "label": 1, "text_1": "boy: I'm not a fan of philosophy", "text_2": "girl: I dislike religious practices"}
+N{"index": 260, "cosine": 0.3607, "label": 1, "text_1": "boy: I avoid professional growth", "text_2": "girl: I'm not a fan of work-life balance"}
+N{"index": 261, "cosine": 0.2602, "label": 1, "text_1": "boy: I'm obsessed with live music", "text_2": "girl: I'm passionate about fine dining"}
+N{"index": 262, "cosine": 0.3486, "label": 1, "text_1": "boy: I'm passionate about big crowds", "text_2": "girl: I love sports"}
+N{"index": 265, "cosine": 0.3698, "label": 1, "text_1": "boy: I'm into gym workouts", "text_2": "girl: I'm a huge fan of hiking"}
+N{"index": 266, "cosine": 0.3037, "label": 1, "text_1": "boy: I adore cultural tours", "text_2": "girl: I love electronic music"}
+N{"index": 267, "cosine": 0.4443, "label": 1, "text_1": "boy: I adore nature trips", "text_2": "girl: I'm a huge fan of museums"}
+N{"index": 270, "cosine": 0.2279, "label": 1, "text_1": "boy: I adore vegetarian food", "text_2": "girl: I'm obsessed with classical music"}
+N{"index": 272, "cosine": 0.2406, "label": 1, "text_1": "boy: I'm a huge fan of street food", "text_2": "girl: I'm passionate about jazz"}
+N{"index": 280, "cosine": 0.2939, "label": 1, "text_1": "boy: I really enjoy city breaks", "text_2": "girl: I'm a huge fan of painting"}
+N{"index": 284, "cosine": 0.3919, "label": 1, "text_1": "boy: I love hiking", "text_2": "girl: I adore sports"}
+ {"index": 285, "cosine": 0.4317, "label": 1, "text_1": "boy: I'm passionate about eco-friendly living", "text_2": "girl: I really enjoy organic food"}
+N{"index": 290, "cosine": 0.2439, "label": 1, "text_1": "boy: I adore fine dining", "text_2": "girl: I'm passionate about city breaks"}
+ {"index": 298, "cosine": 0.4094, "label": 1, "text_1": "boy: I'm a huge fan of staying home", "text_2": "girl: I love peaceful evenings"}
+N{"index": 302, "cosine": 0.1951, "label": 1, "text_1": "boy: I'm a huge fan of electronic music", "text_2": "girl: I can't get enough of trying new cuisines"}
+N{"index": 303, "cosine": 0.441, "label": 1, "text_1": "boy: I don't enjoy religious practices", "text_2": "girl: I dislike meditation"}
+N{"index": 304, "cosine": 0.4057, "label": 1, "text_1": "boy: I love outdoor adventures", "text_2": "girl: I love small gatherings"}
+N{"index": 308, "cosine": 0.208, "label": 1, "text_1": "Not big on drama or games.", "text_2": "I’m looking for something straightforward and calm."}
+ {"index": 313, "cosine": 0.3913, "label": 1, "text_1": "boy: I love spiritual growth", "text_2": "girl: I can't get enough of meditation"}
+ {"index": 314, "cosine": 0.4202, "label": 1, "text_1": "boy: I'm all about classical music", "text_2": "girl: I can't get enough of live music"}
+ {"index": 315, "cosine": 0.2087, "label": 1, "text_1": "I’m not the best at expressing my feelings.", "text_2": "I’m working on being more open."}
+N{"index": 316, "cosine": 0.282, "label": 1, "text_1": "boy: I adore backpacking", "text_2": "girl: I adore jazz"}
+ {"index": 327, "cosine": 0.3971, "label": 1, "text_1": "boy: I love big crowds", "text_2": "girl: I adore parties"}
+N{"index": 333, "cosine": 0.2671, "label": 1, "text_1": "boy: I'm obsessed with meditation", "text_2": "girl: I can't get enough of staying home"}
+X{"index": 335, "cosine": 0.3866, "label": 1, "text_1": "boy: I hate family time", "text_2": "girl: I'm not into having kids"}
+N{"index": 338, "cosine": 0.3824, "label": 1, "text_1": "boy: I'm obsessed with live music", "text_2": "girl: I'm obsessed with fine dining"}
+X{"index": 342, "cosine": 0.1342, "label": 1, "text_1": "I need someone who’s emotionally available.", "text_2": "I’ve had issues with that in the past."}
+ {"index": 343, "cosine": 0.435, "label": 1, "text_1": "boy: I'm a huge fan of peaceful evenings", "text_2": "girl: I'm into staying home"}
+N{"index": 344, "cosine": 0.3718, "label": 1, "text_1": "boy: I'm passionate about fine dining", "text_2": "girl: I'm all about vegetarian food"}
+N{"index": 351, "cosine": 0.3171, "label": 1, "text_1": "boy: I'm into meditation", "text_2": "girl: I'm passionate about small gatherings"}
+N{"index": 352, "cosine": 0.3307, "label": 1, "text_1": "boy: I adore hiking", "text_2": "girl: I really enjoy small gatherings"}
+N{"index": 354, "cosine": 0.2695, "label": 1, "text_1": "boy: I'm obsessed with parties", "text_2": "girl: I'm passionate about running"}
+N{"index": 363, "cosine": 0.2502, "label": 1, "text_1": "boy: I adore cooking", "text_2": "girl: I'm all about art galleries"}
+N{"index": 364, "cosine": 0.2513, "label": 1, "text_1": "boy: I'm all about art galleries", "text_2": "girl: I love nature trips"}
+N{"index": 366, "cosine": 0.2009, "label": 1, "text_1": "boy: I'm all about city breaks", "text_2": "girl: I love cooking"}
+ {"index": 372, "cosine": 0.4303, "label": 1, "text_1": "boy: I'm into mindfulness", "text_2": "girl: I'm passionate about spiritual growth"}
+N{"index": 373, "cosine": 0.2948, "label": 1, "text_1": "boy: I can't stand reading books", "text_2": "girl: I hate staying home"}
+N{"index": 379, "cosine": 0.3552, "label": 1, "text_1": "boy: I dislike lazy Sundays", "text_2": "girl: I avoid Netflix marathons"}
+ {"index": 381, "cosine": 0.3658, "label": 1, "text_1": "boy: I value reading books but I really enjoy honesty and loyalty", "text_2": "girl: I dislike meeting new people and I love honest relationships"}
+N{"index": 385, "cosine": 0.361, "label": 1, "text_1": "boy: I'm obsessed with fine dining", "text_2": "girl: I adore city breaks"}
+N{"index": 386, "cosine": 0.306, "label": 1, "text_1": "boy: I'm passionate about social events", "text_2": "girl: I love hiking"}
+N{"index": 388, "cosine": 0.3435, "label": 1, "text_1": "boy: I love staying home", "text_2": "girl: I love running"}
+N{"index": 391, "cosine": 0.2229, "label": 1, "text_1": "boy: I'm all about parties", "text_2": "girl: I'm obsessed with sports"}
+N{"index": 399, "cosine": 0.3904, "label": 1, "text_1": "boy: I'm passionate about painting", "text_2": "girl: I really enjoy cooking"}
+ {"index": 400, "cosine": 0.3356, "label": 1, "text_1": "boy: I adore outdoor adventures", "text_2": "girl: I'm passionate about running"}
+N{"index": 404, "cosine": 0.3105, "label": 1, "text_1": "boy: I'm a huge fan of lazy Sundays", "text_2": "girl: I really enjoy small gatherings"}
+ {"index": 405, "cosine": 0.4293, "label": 1, "text_1": "boy: I adore eco-friendly living", "text_2": "girl: I'm into organic food"}
+N{"index": 407, "cosine": 0.3407, "label": 1, "text_1": "boy: I really enjoy sleeping in", "text_2": "girl: I love meditation"}
+ {"index": 410, "cosine": 0.3786, "label": 1, "text_1": "boy: I despise hiking", "text_2": "girl: I can't stand sports"}
+N{"index": 414, "cosine": 0.1377, "label": 1, "text_1": "boy: I can't get enough of vegetarian food", "text_2": "girl: I really enjoy city breaks"}
+X{"index": 415, "cosine": 0.2881, "label": 1, "text_1": "boy: I'm passionate about parties", "text_2": "girl: I really enjoy lazy Sundays"}
+N{"index": 416, "cosine": 0.2703, "label": 1, "text_1": "boy: I'm obsessed with luxury resorts", "text_2": "girl: I'm a huge fan of jazz"}
+N{"index": 420, "cosine": 0.3546, "label": 1, "text_1": "boy: I adore painting", "text_2": "girl: I'm all about cultural tours"}
+N{"index": 424, "cosine": 0.3734, "label": 1, "text_1": "boy: I would never nature trips", "text_2": "girl: I despise luxury resorts"}
+N{"index": 427, "cosine": 0.3715, "label": 1, "text_1": "boy: I'm obsessed with street food", "text_2": "girl: I'm obsessed with theater"}
+X{"index": 429, "cosine": 0.1794, "label": 1, "text_1": "boy: I'm obsessed with gym workouts", "text_2": "girl: I can't get enough of staying home"}
+N{"index": 431, "cosine": 0.2455, "label": 1, "text_1": "boy: I'm all about trying new cuisines", "text_2": "girl: I really enjoy classical music"}
+N{"index": 432, "cosine": 0.4302, "label": 1, "text_1": "boy: I adore painting", "text_2": "girl: I adore trying new cuisines"}
+ {"index": 434, "cosine": 0.0909, "label": 1, "text_1": "Career’s important but so is being present.", "text_2": "I want to be driven without it swallowing the rest of life."}
+N{"index": 438, "cosine": 0.3721, "label": 1, "text_1": "boy: I adore art galleries", "text_2": "girl: I'm obsessed with jazz"}
+N{"index": 439, "cosine": 0.2691, "label": 1, "text_1": "boy: I'm obsessed with luxury resorts", "text_2": "girl: I'm a huge fan of vegetarian food"}
+N{"index": 446, "cosine": 0.3191, "label": 1, "text_1": "boy: I'm passionate about photography", "text_2": "girl: I love classical music"}
+ {"index": 448, "cosine": 0.3575, "label": 1, "text_1": "Religion isn’t central for me but I respect it mattering to others.", "text_2": "It’s not a big part of my life, though I get that it is for some people."}
+N{"index": 455, "cosine": 0.3962, "label": 1, "text_1": "boy: I love theater", "text_2": "girl: I can't get enough of classical music"}
+N{"index": 457, "cosine": 0.1906, "label": 1, "text_1": "boy: I really enjoy cooking", "text_2": "girl: I can't get enough of theater"}
+N{"index": 458, "cosine": 0.3282, "label": 1, "text_1": "boy: I'm all about photography", "text_2": "girl: I really enjoy electronic music"}
+ {"index": 467, "cosine": 0.3505, "label": 1, "text_1": "boy: I'm obsessed with outdoor adventures", "text_2": "girl: I'm passionate about sports"}
+N{"index": 470, "cosine": 0.2663, "label": 1, "text_1": "boy: I love theater", "text_2": "girl: I'm obsessed with nature trips"}
+N{"index": 478, "cosine": 0.3935, "label": 1, "text_1": "boy: I'm obsessed with casual walks", "text_2": "girl: I'm passionate about Netflix marathons"}
+N{"index": 480, "cosine": 0.2814, "label": 1, "text_1": "boy: I'm all about casual walks", "text_2": "girl: I love small gatherings"}
+ {"index": 482, "cosine": 0.4487, "label": 1, "text_1": "boy: I love meditation", "text_2": "girl: I adore religious practices"}
+ {"index": 483, "cosine": 0.2749, "label": 1, "text_1": "boy: I'm all about meditation", "text_2": "girl: I'm a huge fan of quiet weekends"}
+N{"index": 496, "cosine": 0.3099, "label": 1, "text_1": "boy: I adore meeting new people", "text_2": "girl: I'm all about hiking"}
+ {"index": 502, "cosine": 0.4251, "label": 1, "text_1": "boy: I'm passionate about meeting new people", "text_2": "girl: I love big crowds"}
+N{"index": 506, "cosine": 0.4108, "label": 1, "text_1": "boy: I'm passionate about running", "text_2": "girl: I'm passionate about peaceful evenings"}
+N{"index": 509, "cosine": 0.2731, "label": 1, "text_1": "boy: I really enjoy casual walks", "text_2": "girl: I adore reading books"}
+N{"index": 518, "cosine": 0.2785, "label": 1, "text_1": "boy: I'm obsessed with gym workouts", "text_2": "girl: I love quiet weekends"}
+N{"index": 520, "cosine": 0.205, "label": 1, "text_1": "boy: I'm a huge fan of street food", "text_2": "girl: I can't get enough of jazz"}
+N{"index": 524, "cosine": 0.0899, "label": 1, "text_1": "boy: I love lazy Sundays", "text_2": "girl: I'm all about meeting new people"}
+ {"index": 527, "cosine": 0.2494, "label": 1, "text_1": "boy: I can't get enough of peaceful evenings", "text_2": "girl: I'm a huge fan of reading books"}
+N{"index": 540, "cosine": 0.374, "label": 1, "text_1": "boy: I can't get enough of hiking", "text_2": "girl: I can't get enough of nightlife"}
+ {"index": 541, "cosine": 0.2533, "label": 1, "text_1": "I’m not sure what I’m looking for.", "text_2": "I’m open to seeing what happens."}
+N{"index": 544, "cosine": 0.2594, "label": 1, "text_1": "boy: I'm a huge fan of classical music", "text_2": "girl: I'm all about cooking"}
+N{"index": 555, "cosine": 0.3493, "label": 1, "text_1": "boy: I dislike rock concerts", "text_2": "girl: I would never jazz"}
+ {"index": 562, "cosine": 0.216, "label": 1, "text_1": "I tend to be pretty direct.", "text_2": "I’d rather say what I think than dance around it."}
+N{"index": 563, "cosine": 0.3952, "label": 1, "text_1": "boy: I'm into theater", "text_2": "girl: I adore electronic music"}
+N{"index": 567, "cosine": 0.3145, "label": 1, "text_1": "boy: I'm passionate about sleeping in", "text_2": "girl: I'm into small gatherings"}
+x{"index": 576, "cosine": 0.3144, "label": 1, "text_1": "boy: I can't get enough of entrepreneurship", "text_2": "girl: I love job stability"}
+N{"index": 577, "cosine": 0.184, "label": 1, "text_1": "boy: I'm obsessed with rock concerts", "text_2": "girl: I love fine dining"}
+ {"index": 578, "cosine": 0.3278, "label": 1, "text_1": "boy: I love meditation", "text_2": "girl: I really enjoy quiet weekends"}
+N{"index": 580, "cosine": 0.2537, "label": 1, "text_1": "boy: I can't stand meditation", "text_2": "girl: I don't enjoy Netflix marathons"}
+ {"index": 581, "cosine": 0.2725, "label": 1, "text_1": "I’m not sure what compatibility even means.", "text_2": "I think it’s about how you handle the differences."}
+N{"index": 587, "cosine": 0.2236, "label": 1, "text_1": "boy: I'm into reading books", "text_2": "girl: I'm all about small gatherings"}
+N{"index": 588, "cosine": 0.3966, "label": 1, "text_1": "boy: I'm passionate about live music", "text_2": "girl: I'm obsessed with photography"}
+N{"index": 591, "cosine": 0.3894, "label": 1, "text_1": "boy: I'm obsessed with cooking", "text_2": "girl: I'm a huge fan of electronic music"}
+ {"index": 598, "cosine": 0.3107, "label": 1, "text_1": "boy: I'm passionate about Netflix marathons", "text_2": "girl: I'm into quiet weekends"}
+N{"index": 599, "cosine": 0.34, "label": 1, "text_1": "boy: I'm obsessed with cooking", "text_2": "girl: I really enjoy museums"}
+N{"index": 602, "cosine": 0.3065, "label": 1, "text_1": "boy: I'm all about classical music", "text_2": "girl: I really enjoy photography"}
+N{"index": 615, "cosine": 0.1789, "label": 1, "text_1": "boy: I really enjoy reading books", "text_2": "girl: I'm into gym workouts"}
+ {"index": 618, "cosine": 0.2448, "label": 1, "text_1": "I’m cautious about getting hurt again.", "text_2": "I’m trying to be more open."}
+N{"index": 619, "cosine": 0.2182, "label": 1, "text_1": "boy: I'm all about social events", "text_2": "girl: I love running"}
+N{"index": 627, "cosine": 0.4448, "label": 1, "text_1": "boy: I am passionate about staying home but I value honesty and loyalty", "text_2": "girl: I love parties and I love honest relationships"}
+N{"index": 630, "cosine": 0.2501, "label": 1, "text_1": "boy: I can't get enough of photography", "text_2": "girl: I'm a huge fan of fine dining"}
+N{"index": 634, "cosine": 0.2292, "label": 1, "text_1": "boy: I'm a huge fan of fine dining", "text_2": "girl: I'm all about live music"}
+N{"index": 635, "cosine": 0.3104, "label": 1, "text_1": "boy: I'm into art galleries", "text_2": "girl: I'm obsessed with fine dining"}
+N{"index": 642, "cosine": 0.1256, "label": 1, "text_1": "boy: I'm passionate about city breaks", "text_2": "girl: I can't get enough of vegetarian food"}
+N{"index": 645, "cosine": 0.2791, "label": 1, "text_1": "boy: I'm passionate about running", "text_2": "girl: I really enjoy peaceful evenings"}
+N{"index": 648, "cosine": 0.3962, "label": 1, "text_1": "boy: I'm not a fan of small gatherings", "text_2": "girl: I can't stand quiet weekends"}
+N{"index": 653, "cosine": 0.1608, "label": 1, "text_1": "boy: I love casual walks", "text_2": "girl: I can't get enough of meeting new people"}
+ {"index": 655, "cosine": 0.3388, "label": 1, "text_1": "boy: I'm into close family bonds", "text_2": "girl: I really enjoy having kids"}
+N{"index": 658, "cosine": 0.2981, "label": 1, "text_1": "boy: I adore art galleries", "text_2": "girl: I'm all about nature trips"}
+N{"index": 665, "cosine": 0.2661, "label": 1, "text_1": "boy: I'm into sleeping in", "text_2": "girl: I can't get enough of reading books"}
+N{"index": 668, "cosine": 0.3023, "label": 1, "text_1": "boy: I really enjoy nightlife", "text_2": "girl: I'm all about casual walks"}
+N{"index": 670, "cosine": 0.2642, "label": 1, "text_1": "boy: I can't get enough of trying new cuisines", "text_2": "girl: I'm passionate about cultural tours"}
+X{"index": 671, "cosine": 0.3876, "label": 1, "text_1": "boy: I'm a huge fan of professional growth", "text_2": "girl: I'm passionate about work-life balance"}
+N{"index": 673, "cosine": 0.3933, "label": 1, "text_1": "boy: I'm into jazz", "text_2": "girl: I'm into art galleries"}
+ {"index": 679, "cosine": 0.2192, "label": 1, "text_1": "I need someone who’s patient.", "text_2": "I can be a lot sometimes."}
+N{"index": 690, "cosine": 0.2707, "label": 1, "text_1": "boy: I'm obsessed with meditation", "text_2": "girl: I love casual walks"}
+ {"index": 695, "cosine": 0.3936, "label": 1, "text_1": "boy: I love reading books but I love honesty and loyalty", "text_2": "girl: I value small gatherings and I value honest relationships"}
+N{"index": 706, "cosine": 0.3227, "label": 1, "text_1": "boy: I'm obsessed with social events", "text_2": "girl: I'm all about casual walks"}
+N{"index": 708, "cosine": 0.2556, "label": 1, "text_1": "boy: I'm passionate about rock concerts", "text_2": "girl: I'm obsessed with fine dining"}
+ {"index": 710, "cosine": 0.4122, "label": 1, "text_1": "boy: I'm a huge fan of professional growth", "text_2": "girl: I'm into entrepreneurship"}
+N{"index": 711, "cosine": 0.4298, "label": 1, "text_1": "boy: I'm passionate about social events", "text_2": "girl: I'm all about sports"}
+ {"index": 713, "cosine": 0.3746, "label": 1, "text_1": "boy: I'm obsessed with staying home", "text_2": "girl: I love Netflix marathons"}
+ {"index": 715, "cosine": 0.3372, "label": 1, "text_1": "boy: I'm into small gatherings", "text_2": "girl: I can't get enough of lazy Sundays"}
+ {"index": 727, "cosine": 0.2303, "label": 1, "text_1": "boy: I'm passionate about reading books", "text_2": "girl: I'm into lazy Sundays"}
+ {"index": 730, "cosine": 0.2153, "label": 1, "text_1": "I’m hoping to find someone who’s okay with my past.", "text_2": "I have some baggage but I’ve done a lot of work on myself."}
+ {"index": 731, "cosine": 0.3599, "label": 1, "text_1": "boy: I'm all about having kids", "text_2": "girl: I really enjoy close family bonds"}
+N{"index": 733, "cosine": 0.324, "label": 1, "text_1": "boy: I can't get enough of painting", "text_2": "girl: I can't get enough of nature trips"}
+ {"index": 734, "cosine": 0.1177, "label": 1, "text_1": "I’m not really into labels.", "text_2": "I’d rather just see how it goes."}
+N{"index": 744, "cosine": 0.2373, "label": 1, "text_1": "boy: I adore lazy Sundays", "text_2": "girl: I'm passionate about big crowds"}
+N{"index": 745, "cosine": 0.1691, "label": 1, "text_1": "boy: I'm all about theater", "text_2": "girl: I love vegetarian food"}
+N{"index": 750, "cosine": 0.247, "label": 1, "text_1": "boy: I really enjoy sports", "text_2": "girl: I'm obsessed with meeting new people"}
+N{"index": 752, "cosine": 0.2067, "label": 1, "text_1": "boy: I'm all about casual walks", "text_2": "girl: I'm obsessed with Netflix marathons"}
+N{"index": 756, "cosine": 0.422, "label": 1, "text_1": "boy: I'm a huge fan of jazz", "text_2": "girl: I'm a huge fan of painting"}
+ {"index": 758, "cosine": 0.3789, "label": 1, "text_1": "boy: I'm not into having kids", "text_2": "girl: I can't stand close family bonds"}
+ {"index": 759, "cosine": 0.2674, "label": 1, "text_1": "I’m not comfortable with too much drama.", "text_2": "I’ve had enough of that."}
+ {"index": 760, "cosine": 0.4344, "label": 1, "text_1": "boy: I'm all about trying new cuisines", "text_2": "girl: I'm obsessed with street food"}
+X{"index": 768, "cosine": 0.1735, "label": 1, "text_1": "boy: I really enjoy lazy Sundays", "text_2": "girl: I love meeting new people"}
+ {"index": 769, "cosine": 0.3685, "label": 1, "text_1": "boy: I'm passionate about sports", "text_2": "girl: I'm all about gym workouts"}
+N{"index": 770, "cosine": 0.3496, "label": 1, "text_1": "boy: I really enjoy painting", "text_2": "girl: I love electronic music"}
+N{"index": 771, "cosine": 0.3512, "label": 1, "text_1": "boy: I really enjoy luxury resorts", "text_2": "girl: I love theater"}
+N{"index": 772, "cosine": 0.2742, "label": 1, "text_1": "boy: I'm a huge fan of live music", "text_2": "girl: I'm into painting"}
+N{"index": 773, "cosine": 0.2836, "label": 1, "text_1": "boy: I'm obsessed with painting", "text_2": "girl: I can't get enough of electronic music"}
+ {"index": 776, "cosine": 0.3917, "label": 1, "text_1": "boy: I'm obsessed with big crowds", "text_2": "girl: I'm passionate about parties"}
+ {"index": 786, "cosine": 0.4074, "label": 1, "text_1": "I’m hoping for someone who’s okay with my schedule.", "text_2": "My job’s demanding; I need someone who gets that."}
+ {"index": 798, "cosine": 0.2867, "label": 1, "text_1": "boy: I can't get enough of city breaks", "text_2": "girl: I'm a huge fan of cultural tours"}
+ {"index": 800, "cosine": 0.3988, "label": 1, "text_1": "I’m hoping for someone who’s kind to themselves too.", "text_2": "Self-care matters to me."}
+ {"index": 802, "cosine": 0.3511, "label": 1, "text_1": "boy: I'm not into running", "text_2": "girl: I despise gym workouts"}
+ {"index": 803, "cosine": 0.2844, "label": 1, "text_1": "boy: I really enjoy city breaks", "text_2": "girl: I'm passionate about cultural tours"}
+ {"index": 804, "cosine": 0.4168, "label": 1, "text_1": "boy: I'm passionate about sports", "text_2": "girl: I really enjoy outdoor adventures"}
+N{"index": 807, "cosine": 0.2661, "label": 1, "text_1": "boy: I'm all about running", "text_2": "girl: I'm a huge fan of big crowds"}
+N{"index": 810, "cosine": 0.2711, "label": 1, "text_1": "boy: I'm all about classical music", "text_2": "girl: I'm passionate about trying new cuisines"}
+N{"index": 819, "cosine": 0.3075, "label": 1, "text_1": "boy: I'm passionate about casual walks", "text_2": "girl: I'm a huge fan of small gatherings"}
+N{"index": 821, "cosine": 0.3818, "label": 1, "text_1": "boy: I can't get enough of backpacking", "text_2": "girl: I can't get enough of street food"}
+N{"index": 824, "cosine": 0.1997, "label": 1, "text_1": "boy: I really enjoy live music", "text_2": "girl: I'm all about backpacking"}
+N{"index": 827, "cosine": 0.3056, "label": 1, "text_1": "boy: I love art galleries", "text_2": "girl: I'm passionate about trying new cuisines"}
+ {"index": 829, "cosine": 0.4149, "label": 1, "text_1": "boy: I really enjoy reading books but I really enjoy honesty and loyalty", "text_2": "girl: I hate meeting new people and I am passionate about honest relationships"}
+ {"index": 833, "cosine": 0.3059, "label": 1, "text_1": "I’m hoping we’d make each other laugh.", "text_2": "A sense of humor is important to me."}
+N{"index": 834, "cosine": 0.3317, "label": 1, "text_1": "boy: I love casual walks", "text_2": "girl: I adore big crowds"}
+N{"index": 837, "cosine": 0.2086, "label": 1, "text_1": "boy: I can't get enough of running", "text_2": "girl: I adore quiet weekends"}
+N{"index": 846, "cosine": 0.3702, "label": 1, "text_1": "boy: I adore luxury resorts", "text_2": "girl: I really enjoy street food"}
+ {"index": 850, "cosine": 0.4225, "label": 1, "text_1": "boy: I love meeting new people but I really enjoy honesty and loyalty", "text_2": "girl: I dislike reading books and I value honest relationships"}
+ {"index": 852, "cosine": 0.3853, "label": 1, "text_1": "Politics matter to me but I don’t need us to agree on everything.", "text_2": "We don’t have to see eye to eye on every issue, but I care that we’re coming from a similar place."}
+ {"index": 854, "cosine": 0.4282, "label": 1, "text_1": "boy: I am passionate about staying home but I am passionate about honesty and loyalty", "text_2": "girl: I can't stand parties and I really enjoy honest relationships"}
+ {"index": 857, "cosine": 0.3618, "label": 1, "text_1": "boy: I can't get enough of small gatherings", "text_2": "girl: I'm all about lazy Sundays"}
+ {"index": 860, "cosine": 0.366, "label": 1, "text_1": "I tend to be pretty guarded at first.", "text_2": "It takes me a while to open up."}
+ {"index": 867, "cosine": 0.437, "label": 1, "text_1": "boy: I'm obsessed with philosophy", "text_2": "girl: I'm into meditation"}
+ {"index": 870, "cosine": 0.2913, "label": 1, "text_1": "I need someone who understands my schedule.", "text_2": "My work’s unpredictable."}
+ {"index": 873, "cosine": 0.3751, "label": 1, "text_1": "boy: I avoid running", "text_2": "girl: I'm not a fan of gym workouts"}
+ {"index": 875, "cosine": 0.4395, "label": 1, "text_1": "boy: I am passionate about small gatherings but I am passionate about honesty and loyalty", "text_2": "girl: I hate reading books and I value honest relationships"}
+N{"index": 879, "cosine": 0.1379, "label": 1, "text_1": "boy: I really enjoy luxury resorts", "text_2": "girl: I can't get enough of painting"}
+N{"index": 886, "cosine": 0.2588, "label": 1, "text_1": "boy: I love parties", "text_2": "girl: I can't get enough of sports"}
+ {"index": 887, "cosine": 0.1788, "label": 1, "text_1": "I need someone who gives me space.", "text_2": "I like to feel close but not suffocated."}
+N{"index": 889, "cosine": 0.3, "label": 1, "text_1": "boy: I'm into painting", "text_2": "girl: I can't get enough of fine dining"}
+N{"index": 896, "cosine": 0.2826, "label": 1, "text_1": "boy: I can't get enough of theater", "text_2": "girl: I'm into cooking"}
+N{"index": 898, "cosine": 0.2944, "label": 1, "text_1": "boy: I'm all about parties", "text_2": "girl: I'm passionate about casual walks"}
+N{"index": 901, "cosine": 0.3765, "label": 1, "text_1": "boy: I'm passionate about entrepreneurship", "text_2": "girl: I love job stability"}
+N{"index": 903, "cosine": 0.2382, "label": 1, "text_1": "boy: I'm obsessed with street food", "text_2": "girl: I'm all about classical music"}
+{"index": 905, "cosine": 0.4389, "label": 1, "text_1": "I’m hoping for something that could get serious.", "text_2": "Not really in a casual phase—looking for something with real potential."}
+{"index": 916, "cosine": 0.3817, "label": 1, "text_1": "boy: I can't get enough of philosophy", "text_2": "girl: I'm passionate about meditation"}
+N{"index": 920, "cosine": 0.1778, "label": 1, "text_1": "boy: I'm passionate about vegetarian food", "text_2": "girl: I'm all about jazz"}
+N{"index": 923, "cosine": 0.2939, "label": 1, "text_1": "boy: I love painting", "text_2": "girl: I really enjoy city breaks"}
+N{"index": 927, "cosine": 0.3617, "label": 1, "text_1": "boy: I'm passionate about theater", "text_2": "girl: I can't get enough of museums"}
+N{"index": 932, "cosine": 0.1776, "label": 1, "text_1": "boy: I can't get enough of big crowds", "text_2": "girl: I love casual walks"}
+N{"index": 938, "cosine": 0.3205, "label": 1, "text_1": "boy: I'm a huge fan of meeting new people", "text_2": "girl: I really enjoy nightlife"}
+ {"index": 940, "cosine": 0.4436, "label": 1, "text_1": "boy: I dislike eco-friendly living", "text_2": "girl: I despise green energy"}
+ {"index": 942, "cosine": 0.435, "label": 1, "text_1": "boy: I really enjoy outdoor adventures", "text_2": "girl: I love sports"}
+N{"index": 943, "cosine": 0.2692, "label": 1, "text_1": "boy: I despise staying home", "text_2": "girl: I'm not a fan of reading books"}
+N{"index": 945, "cosine": 0.2575, "label": 1, "text_1": "boy: I really enjoy vegetarian food", "text_2": "girl: I'm into photography"}
+N{"index": 946, "cosine": 0.3018, "label": 1, "text_1": "boy: I can't get enough of nature trips", "text_2": "girl: I'm into city breaks"}
+N{"index": 951, "cosine": 0.2671, "label": 1, "text_1": "boy: I love painting", "text_2": "girl: I adore street food"}
+N{"index": 952, "cosine": 0.3147, "label": 1, "text_1": "boy: I'm a huge fan of theater", "text_2": "girl: I'm obsessed with cooking"}
+ {"index": 955, "cosine": 0.4118, "label": 1, "text_1": "boy: I'm a huge fan of meditation", "text_2": "girl: I'm a huge fan of quiet weekends"}
+ {"index": 959, "cosine": 0.4347, "label": 1, "text_1": "boy: I'm obsessed with family time", "text_2": "girl: I'm into having kids"}
+ {"index": 964, "cosine": 0.3811, "label": 1, "text_1": "boy: I'm passionate about nightlife", "text_2": "girl: I'm into big crowds"}
+N{"index": 967, "cosine": 0.2244, "label": 1, "text_1": "boy: I love classical music", "text_2": "girl: I'm into fine dining"}
+N{"index": 970, "cosine": 0.2802, "label": 1, "text_1": "boy: I adore luxury resorts", "text_2": "girl: I'm obsessed with painting"}
+ {"index": 971, "cosine": 0.3641, "label": 1, "text_1": "boy: I can't get enough of backpacking", "text_2": "girl: I'm passionate about nature trips"}
+N{"index": 972, "cosine": 0.2408, "label": 1, "text_1": "boy: I can't get enough of cooking", "text_2": "girl: I'm obsessed with backpacking"}
+ {"index": 974, "cosine": 0.3725, "label": 1, "text_1": "boy: I'm a huge fan of green energy", "text_2": "girl: I'm obsessed with organic food"}
+N{"index": 976, "cosine": 0.3615, "label": 1, "text_1": "boy: I can't get enough of reading books", "text_2": "girl: I can't get enough of sports"}
+ {"index": 991, "cosine": 0.4073, "label": 1, "text_1": "boy: I really enjoy reading books but I really enjoy honesty and loyalty", "text_2": "girl: I can't stand parties and I really enjoy honest relationships"}
+N{"index": 995, "cosine": 0.3307, "label": 1, "text_1": "boy: I'm passionate about cultural tours", "text_2": "girl: I'm all about painting"}

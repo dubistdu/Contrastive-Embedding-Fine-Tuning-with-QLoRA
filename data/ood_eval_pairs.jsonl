@@ -1,0 +1,108 @@
+{"text_1":"Weekends I’m usually out hiking or at a gallery.","text_2":"I tend to spend my free time either on trails or looking at art.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"Not really looking for someone who’s super into nightlife.","text_2":"I’m hoping to find someone who’s more low-key about going out.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I’m not comfortable with a lot of drinking.","text_2":"Heavy drinking isn’t really my thing—or something I’m okay with in a partner.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"Politics matter to me but I don’t need us to agree on everything.","text_2":"We don’t have to see eye to eye on every issue, but I care that we’re coming from a similar place.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I’ve had pets my whole life and can’t imagine not having one.","text_2":"Having animals around is pretty non-negotiable for me.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"Career’s important but so is being present.","text_2":"I want to be driven without it swallowing the rest of life.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I’m not sure I’m cut out for someone who needs a lot of reassurance.","text_2":"I tend to do better with people who are fairly secure in themselves.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I’d rather cook at home than eat out most nights.","text_2":"Going out is nice sometimes but I’m more of a home kitchen person.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"Religion isn’t central for me but I respect it mattering to others.","text_2":"It’s not a big part of my life, though I get that it is for some people.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I’m hoping for something that could get serious.","text_2":"Not really in a casual phase—looking for something with real potential.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I need someone who gets that I’m introverted.","text_2":"Big crowds drain me; I recharge alone or with one or two people.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"Fitness is part of my routine but I’m not obsessive.","text_2":"I work out regularly without it defining my life.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"Kids are probably in the picture someday.","text_2":"I think I’d like to have a family eventually.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I’m not comfortable with smoking.","text_2":"Smoking’s a dealbreaker for me, to be honest.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"Travel’s a priority when I can afford it.","text_2":"I try to use my time off to see new places.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"We both like live music and trying new restaurants.","text_2":"She’s into concerts; he’s always looking up new places to eat.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I’m hoping for someone who’s okay with my schedule.","text_2":"My job’s demanding; I need someone who gets that.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I tend to be pretty direct.","text_2":"I’d rather say what I think than dance around it.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"Not big on drama or games.","text_2":"I’m looking for something straightforward and calm.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"Family’s important—we don’t have to agree on everything but it matters.","text_2":"I’m close to my family and want that to be respected.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I’m really into running and being outdoors.","text_2":"I’m more of a homebody; I like a quiet night in.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I tend to prioritize my career and work late often.","text_2":"I’m hoping to find someone who’s also really driven and ambitious.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m not comfortable with alcohol being a big part of social life.","text_2":"I love trying new bars and wine tastings on the weekend.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m hoping to have kids in the next few years.","text_2":"I’ve thought about it and I don’t think parenthood is for me.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I need a lot of alone time to recharge.","text_2":"I’m pretty extroverted—I get energy from being around people.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m not really a pet person.","text_2":"I’ve always had dogs and can’t imagine life without one.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m looking for something serious and long-term.","text_2":"I’m not in a place to commit—just seeing how things go.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I tend to be pretty frugal and save a lot.","text_2":"I like to enjoy my money—travel, nice dinners, experiences.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"Religion’s a big part of how I live.","text_2":"I’m not religious and it’s not something I want to bring into a relationship.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m hoping to stay in this city for a long time.","text_2":"I’m open to relocating if the right opportunity comes up.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I like to keep things light and not rush.","text_2":"I’m ready to settle down and don’t want to waste time.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m not comfortable with conflict—I’d rather keep the peace.","text_2":"I need to talk things through when something’s wrong.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m really close to my family and see them every week.","text_2":"I’m pretty independent from my family—we talk but I don’t need that much contact.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I tend to be spontaneous and last-minute.","text_2":"I like to plan ahead and know what’s happening.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"Fitness and health are non-negotiable for me.","text_2":"I’m not really into the gym—I’d rather relax.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m not comfortable with smoking—it’s a hard line for me.","text_2":"I smoke occasionally when I’m out; it’s not a big deal.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m hoping for someone who wants to split things fairly.","text_2":"I prefer to take care of the bill—it’s how I was raised.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m not really into the idea of marriage.","text_2":"Marriage is something I’ve always wanted.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m not comfortable with drugs—even recreationally.","text_2":"I’m open-minded about occasional use in the right setting.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m hoping we’d be on the same page about money.","text_2":"I’d rather not merge finances or talk about it much.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I tend to need a lot of reassurance in relationships.","text_2":"I’m pretty secure and don’t need constant validation.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m not comfortable with someone who’s still close with their ex.","text_2":"My ex and I co-parent; we’re in touch a lot.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m hoping to find someone who doesn’t smoke.","text_2":"I’ve been cutting back but I still have one sometimes when I’m stressed.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"Alcohol isn’t really my thing—I’d prefer it wasn’t a big part of their life either.","text_2":"I’m not a heavy drinker but I do enjoy wine with dinner.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m not comfortable with non-monogamy.","text_2":"I’ve been exploring open relationships and it’s been interesting.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m hoping for someone who wants kids.","text_2":"I’m on the fence—leaning no but could be swayed.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I tend to need someone who’s okay with me traveling for work.","text_2":"I get anxious when my partner’s away a lot.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m not really comfortable with someone who’s super active on social media.","text_2":"I post a lot—it’s part of my job and my brand.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m hoping we’d want similar things from day-to-day life.","text_2":"I like to go out most nights; staying in feels like wasting time.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m not comfortable with a big age gap.","text_2":"I’ve dated older and younger; age is just a number to me.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’d want someone who’s on the same page about religion.","text_2":"I’m spiritual but not in a traditional way.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m not really okay with someone who’s still figuring things out.","text_2":"I’m in a transition phase—new job, new city, seeing what sticks.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m hoping for someone who doesn’t want to move.","text_2":"I might want to try living abroad in a few years.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m not comfortable with someone who’s really into partying.","text_2":"I’ve calmed down but I still like a good night out.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’d want us to want the same kind of commitment.","text_2":"I’ve been hurt before—I need to take things slow.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m not really okay with someone who’s super close to their family.","text_2":"My family’s a big part of my life—we talk every day.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m hoping for someone who’s done with the dating scene.","text_2":"I’m still seeing a few people—not exclusive yet.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m not comfortable with someone who’s really career-focused.","text_2":"My career’s my priority right now—probably for a few more years.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"We’re both kind of messy and disorganized.","text_2":"I’m pretty tidy; clutter stresses me out.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m not sure how I feel about it yet.","text_2":"I’ve thought about it a lot and I’m still not sure.","label":0,"bucket":"ambiguous"}
+{"text_1":"I like to keep some things private.","text_2":"I value honesty and openness.","label":0,"bucket":"ambiguous"}
+{"text_1":"I’m hoping for something real.","text_2":"I’m tired of things that don’t go anywhere.","label":1,"bucket":"ambiguous"}
+{"text_1":"I tend to go with the flow.","text_2":"I like to have a plan.","label":0,"bucket":"ambiguous"}
+{"text_1":"I’m not the best at texting back quickly.","text_2":"I like to stay in touch throughout the day.","label":0,"bucket":"ambiguous"}
+{"text_1":"I’m looking for someone who gets me.","text_2":"I want to find someone I can really connect with.","label":1,"bucket":"ambiguous"}
+{"text_1":"I’m okay with things being complicated sometimes.","text_2":"I prefer to keep things simple.","label":0,"bucket":"ambiguous"}
+{"text_1":"I’m not sure what I’m looking for.","text_2":"I’m open to seeing what happens.","label":1,"bucket":"ambiguous"}
+{"text_1":"I need someone who gives me space.","text_2":"I like to feel close but not suffocated.","label":1,"bucket":"ambiguous"}
+{"text_1":"I’m pretty independent.","text_2":"I like doing things as a team.","label":0,"bucket":"ambiguous"}
+{"text_1":"I’m hoping we’d have similar values.","text_2":"Values matter to me but I don’t need us to be the same.","label":1,"bucket":"ambiguous"}
+{"text_1":"I’m not great with change.","text_2":"I’m trying to be more flexible.","label":0,"bucket":"ambiguous"}
+{"text_1":"I want someone who’s kind.","text_2":"Kindness is really important to me.","label":1,"bucket":"ambiguous"}
+{"text_1":"I’m still working on myself.","text_2":"I think we’re all a work in progress.","label":1,"bucket":"ambiguous"}
+{"text_1":"I like to take things slow.","text_2":"I don’t want to rush into anything.","label":1,"bucket":"ambiguous"}
+{"text_1":"I’m not sure we’d be compatible.","text_2":"We might have different priorities.","label":0,"bucket":"ambiguous"}
+{"text_1":"I’m looking for a partner, not a project.","text_2":"I’m hoping to grow together.","label":0,"bucket":"ambiguous"}
+{"text_1":"I need someone who’s emotionally available.","text_2":"I’ve had issues with that in the past.","label":1,"bucket":"ambiguous"}
+{"text_1":"I’m pretty low-maintenance.","text_2":"I like to put effort in.","label":0,"bucket":"ambiguous"}
+{"text_1":"I’m hoping for balance.","text_2":"I don’t want things to be one-sided.","label":1,"bucket":"ambiguous"}
+{"text_1":"I’m not the most romantic person.","text_2":"I show love in different ways.","label":1,"bucket":"ambiguous"}
+{"text_1":"I like to talk things through.","text_2":"I sometimes need space before I can talk.","label":0,"bucket":"ambiguous"}
+{"text_1":"I’m cautious about getting hurt again.","text_2":"I’m trying to be more open.","label":1,"bucket":"ambiguous"}
+{"text_1":"I want someone who challenges me.","text_2":"I like to feel supported.","label":0,"bucket":"ambiguous"}
+{"text_1":"I’m not sure I’m ready for something serious.","text_2":"I’m open to it if it feels right.","label":1,"bucket":"ambiguous"}
+{"text_1":"I tend to overthink.","text_2":"I’m more of a go-with-the-gut person.","label":0,"bucket":"ambiguous"}
+{"text_1":"I’m hoping we’d make each other laugh.","text_2":"A sense of humor is important to me.","label":1,"bucket":"ambiguous"}
+{"text_1":"I’m not the best at expressing my feelings.","text_2":"I’m working on being more open.","label":1,"bucket":"ambiguous"}
+{"text_1":"I like to know where I stand.","text_2":"I don’t need constant clarity.","label":0,"bucket":"ambiguous"}
+{"text_1":"I’m looking for something that feels easy.","text_2":"Good relationships take work.","label":0,"bucket":"ambiguous"}
+{"text_1":"I’m hoping for someone who’s honest.","text_2":"Honesty’s non-negotiable for me.","label":1,"bucket":"ambiguous"}
+{"text_1":"I’m not comfortable with too much drama.","text_2":"I’ve had enough of that.","label":1,"bucket":"ambiguous"}
+{"text_1":"I need someone who’s patient.","text_2":"I can be a lot sometimes.","label":1,"bucket":"ambiguous"}
+{"text_1":"I’m pretty set in my ways.","text_2":"I’m trying to be more adaptable.","label":0,"bucket":"ambiguous"}
+{"text_1":"I want someone who’s there for me.","text_2":"I want to be there for them too.","label":1,"bucket":"ambiguous"}
+{"text_1":"I’m not sure what compatibility even means.","text_2":"I think it’s about how you handle the differences.","label":1,"bucket":"ambiguous"}
+{"text_1":"I like stability.","text_2":"I get bored if things are too predictable.","label":0,"bucket":"ambiguous"}
+{"text_1":"I’m hoping for someone who’s kind to themselves too.","text_2":"Self-care matters to me.","label":1,"bucket":"ambiguous"}
+{"text_1":"I’m not the easiest person to date.","text_2":"I’m worth it though.","label":1,"bucket":"ambiguous"}
+{"text_1":"I need someone who understands my schedule.","text_2":"My work’s unpredictable.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I’m not really into labels.","text_2":"I’d rather just see how it goes.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I’m hoping to find someone who’s okay with my past.","text_2":"I have some baggage but I’ve done a lot of work on myself.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I tend to be pretty guarded at first.","text_2":"It takes me a while to open up.","label":1,"bucket":"paraphrase_compatible"}
+{"text_1":"I’m not comfortable with someone who’s still hung up on an ex.","text_2":"I’m over my ex but we’re still in the same friend group.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I’m really into fitness and nutrition.","text_2":"I try to stay active when I can.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m hoping we’d want to live in the same kind of place.","text_2":"I’ve always wanted to live in the country.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m not comfortable with someone who’s very political.","text_2":"I’m really involved in local politics.","label":0,"bucket":"dealbreaker_soft"}
+{"text_1":"I like to keep work and life separate.","text_2":"I bring work home sometimes—it’s hard to switch off.","label":0,"bucket":"topical_incompatible"}
+{"text_1":"I’m hoping for someone who’s ready to build a life together.","text_2":"I’m still figuring out what I want.","label":0,"bucket":"ambiguous"}

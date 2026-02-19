@@ -1,0 +1,70 @@
+# Virtual environment
+venv/
+.venv/
+env/
+.Python
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyo
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.manifest
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+*.cover
+
+# Training / model outputs (remove 'training/' line if you want to track checkpoints)
+training/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Backups
+*.bak
+*.bak.*
+
+# Regenerated audit/output (run scripts to recreate)
+data/eval_flagged.jsonl
+data/flagged_pairs.jsonl
+data/weak_positives_bottom100.jsonl
+
+# Optional working files (uncomment if you use them)
+# data/indices_to_remove.txt
+
+# Secrets / env (never commit)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / OS
+.idea/
+.vscode/
+.cursor/
+.DS_Store
+*.swp
+*~
+Thumbs.db
+*.log
+logs/
