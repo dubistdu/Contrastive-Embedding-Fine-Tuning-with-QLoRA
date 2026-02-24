@@ -1,6 +1,6 @@
 # Contrastive Embedding Fine-Tuning (Dating Compatibility)
 
-Contrastive fine-tuning of sentence embeddings for dating compatibility: compatible pairs (label=1) embed close, incompatible (label=0) far apart. Phase 1 is the core workflow; Phase 2 adds expanded data and human-in-the-loop curation ([PHASE2.md](PHASE2.md)).
+Contrastive fine-tuning of sentence embeddings for dating compatibility: compatible pairs (label=1) embed close, incompatible (label=0) far apart.
 
 ## Project structure
 
@@ -41,7 +41,7 @@ python eval/post_training_evaluation.py
 For best results: curate data, then full fine-tune.
 
 1. **Curate data** — Remove unrelated/mislabeled pairs:
-   - Training: `data/audit_training_pairs.py` (flags by cosine); or Phase 2 `filter_weak_positives.py` + N/X review.
+   - Training: `data/audit_training_pairs.py` (flags by cosine); or `data/filter_weak_positives.py` + N/X review.
    - Eval: `data/audit_eval_pairs.py` → `eval_flagged.jsonl`; then `data/remove_eval_by_index.py --indices ...`
 2. **Full model** — `training/train_contrastive.py --data data/dating_pairs.jsonl` or `training/simple_trainer.py ...` (no LoRA).
 
@@ -61,11 +61,9 @@ For best results: curate data, then full fine-tune.
 | `scripts/inspect_pairs.py` | Inspect cosine scores for any pairs file |
 | `training/train_contrastive.py` | Full fine-tune (CosineSimilarityLoss, no LoRA) |
 | `eval/understand_embeddings.py` | Ad-hoc eval: any model + pairs file → cosine stats, AUC, accuracy |
-| [PHASE2.md](PHASE2.md) | Expanded pipeline, human review |
 
 ## Docs
 
 - [PROCESS.md](PROCESS.md) — Data pipeline
-- [PHASE2.md](PHASE2.md) — Phase 2 workflow
 - [eval/README.md](eval/README.md) — Eval outputs
 - [data/README.md](data/README.md) — Data files
