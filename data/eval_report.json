@@ -1,0 +1,691 @@
+{
+  "data_quality": {
+    "total_records": 1195,
+    "completeness": {
+      "text_1": {
+        "missing_count": 0,
+        "completeness_rate": 1.0
+      },
+      "text_2": {
+        "missing_count": 0,
+        "completeness_rate": 1.0
+      },
+      "label": {
+        "missing_count": 0,
+        "completeness_rate": 1.0
+      },
+      "category": {
+        "missing_count": 0,
+        "completeness_rate": 1.0
+      }
+    },
+    "format_validation": {
+      "valid_labels": true,
+      "label_distribution": {
+        "1": 628,
+        "0": 567
+      },
+      "text_length_stats": {
+        "text_1": {
+          "mean": 9.071966527196652,
+          "std": 4.008965984722506,
+          "min": 4,
+          "max": 20
+        },
+        "text_2": {
+          "mean": 8.167364016736402,
+          "std": 4.124275232045952,
+          "min": 4,
+          "max": 23
+        }
+      },
+      "category_consistency": {
+        "unique_categories": 15,
+        "unique_subcategories": 118,
+        "category_distribution": {
+          "lifestyle": 236,
+          "lifestyle_and_values": 105,
+          "interests": 277,
+          "dealbreakers": 180,
+          "values_and_interests": 119,
+          "values_and_lifestyle": 21,
+          "values": 151,
+          "lifestyle_and_interests": 20,
+          "interests_and_values": 25,
+          "dealbreakers_and_values": 3,
+          "dealbreakers_and_interests": 25,
+          "interests_and_lifestyle": 23,
+          "realistic_example": 5,
+          "values_and_dealbreakers": 1,
+          "lifestyle_and_dealbreakers": 4
+        },
+        "subcategory_distribution": {
+          "relaxed_vs_extroverted": 6,
+          "relaxed": 27,
+          "score_3": 27,
+          "arts": 25,
+          "score_9": 36,
+          "substances": 71,
+          "score_8": 17,
+          "introverted_vs_extroverted": 8,
+          "travel": 47,
+          "personality": 50,
+          "extroverted_vs_introverted": 12,
+          "active_vs_relaxed": 8,
+          "environment_vs_relaxed": 2,
+          "family_vs_relaxed": 2,
+          "score_7": 53,
+          "score_6": 28,
+          "music_vs_arts": 10,
+          "career_vs_music": 3,
+          "career": 37,
+          "spirituality": 45,
+          "arts_vs_travel": 11,
+          "travel_vs_arts": 15,
+          "score_5": 45,
+          "extroverted": 32,
+          "music": 30,
+          "score_4": 34,
+          "active_vs_arts": 2,
+          "family": 35,
+          "introverted_vs_relaxed": 8,
+          "active": 31,
+          "food": 44,
+          "relaxed_vs_travel": 2,
+          "extroverted_vs_active": 12,
+          "relaxed_vs_active": 12,
+          "food_vs_environment": 3,
+          "introverted": 33,
+          "environment_vs_extroverted": 3,
+          "introverted_vs_active": 5,
+          "relaxed_vs_arts": 2,
+          "lifestyle": 59,
+          "arts_vs_food": 13,
+          "career_vs_active": 1,
+          "family_vs_food": 4,
+          "food_vs_spirituality": 4,
+          "relaxed_vs_introverted": 17,
+          "music_vs_food": 12,
+          "arts_vs_music": 11,
+          "relaxed_vs_family": 1,
+          "active_vs_family": 3,
+          "family_vs_arts": 1,
+          "arts_vs_extroverted": 3,
+          "active_vs_extroverted": 10,
+          "family_values_outweigh_exercise_preferences": 1,
+          "environment_vs_travel": 4,
+          "family_vs_music": 1,
+          "relaxed_vs_spirituality": 3,
+          "food_vs_travel": 7,
+          "both_value_career_and_family_balance": 1,
+          "music_vs_family": 3,
+          "arts_vs_career": 2,
+          "travel_vs_music": 5,
+          "active_vs_introverted": 9,
+          "spirituality_vs_music": 2,
+          "extroverted_vs_travel": 1,
+          "environment": 34,
+          "music_vs_active": 2,
+          "extroverted_vs_career": 1,
+          "travel_vs_introverted": 2,
+          "active_vs_spirituality": 1,
+          "introverted_vs_career": 3,
+          "travel_vs_extroverted": 2,
+          "music_vs_travel": 8,
+          "music_vs_extroverted": 2,
+          "introverted_vs_travel": 4,
+          "music_vs_career": 1,
+          "travel_vs_food": 9,
+          "active_vs_career": 2,
+          "music_vs_relaxed": 1,
+          "music_vs_spirituality": 2,
+          "spirituality_vs_relaxed": 3,
+          "food_vs_active": 2,
+          "career_vs_extroverted": 1,
+          "travel_vs_active": 2,
+          "career_vs_relaxed": 2,
+          "extroverted_vs_relaxed": 6,
+          "food_vs_extroverted": 1,
+          "food_vs_introverted": 1,
+          "spirituality_vs_active": 2,
+          "different_social_styles_but_shared_value_of_meaningful_relationships": 1,
+          "environment_vs_arts": 1,
+          "arts_vs_active": 1,
+          "family_vs_introverted": 1,
+          "career_vs_introverted": 1,
+          "relaxed_vs_music": 1,
+          "arts_vs_relaxed": 1,
+          "career_vs_arts": 1,
+          "food_vs_arts": 5,
+          "food_vs_music": 11,
+          "career_vs_food": 1,
+          "spirituality_vs_extroverted": 3,
+          "arts_vs_spirituality": 1,
+          "arts_vs_family": 2,
+          "introverted_vs_music": 1,
+          "travel_vs_spirituality": 2,
+          "food_vs_career": 1,
+          "extroverted_vs_environment": 1,
+          "travel_vs_environment": 1,
+          "environment_vs_food": 1,
+          "active_vs_music": 1,
+          "food_vs_family": 2,
+          "spirituality_vs_travel": 1,
+          "travel_vs_career": 1,
+          "food_vs_relaxed": 2,
+          "shared_core_values_about_honesty_and_peace": 1,
+          "dealbreaker_(smoking)_overrides_shared_interests": 1,
+          "travel_vs_relaxed": 1,
+          "environment_vs_music": 1,
+          "extroverted_vs_spirituality": 1
+        }
+      }
+    },
+    "consistency": {},
+    "duplicates": {
+      "total_pairs": 1195,
+      "unique_pairs": 1104,
+      "duplicate_rate": 0.07615062761506275
+    }
+  },
+  "diversity": {
+    "vocabulary_diversity": {
+      "total_words": 20700,
+      "unique_words": 177,
+      "vocabulary_richness": 0.008550724637681159,
+      "most_common_words": [
+        [
+          "i",
+          2814
+        ],
+        [
+          "boy",
+          1195
+        ],
+        [
+          "girl",
+          1195
+        ],
+        [
+          "i'm",
+          902
+        ],
+        [
+          "and",
+          711
+        ],
+        [
+          "about",
+          541
+        ],
+        [
+          "family",
+          474
+        ],
+        [
+          "enjoy",
+          431
+        ],
+        [
+          "into",
+          420
+        ],
+        [
+          "love",
+          395
+        ],
+        [
+          "passionate",
+          388
+        ],
+        [
+          "of",
+          378
+        ],
+        [
+          "really",
+          377
+        ],
+        [
+          "but",
+          339
+        ],
+        [
+          "would",
+          297
+        ],
+        [
+          "never",
+          297
+        ],
+        [
+          "a",
+          287
+        ],
+        [
+          "can't",
+          280
+        ],
+        [
+          "date",
+          239
+        ],
+        [
+          "someone",
+          238
+        ]
+      ],
+      "hapax_legomena": 8,
+      "average_word_frequency": 116.94915254237289
+    },
+    "category_distribution": {
+      "category_counts": {
+        "lifestyle": 236,
+        "lifestyle_and_values": 105,
+        "interests": 277,
+        "dealbreakers": 180,
+        "values_and_interests": 119,
+        "values_and_lifestyle": 21,
+        "values": 151,
+        "lifestyle_and_interests": 20,
+        "interests_and_values": 25,
+        "dealbreakers_and_values": 3,
+        "dealbreakers_and_interests": 25,
+        "interests_and_lifestyle": 23,
+        "realistic_example": 5,
+        "values_and_dealbreakers": 1,
+        "lifestyle_and_dealbreakers": 4
+      },
+      "entropy": 3.014344194883353,
+      "gini_coefficient": 0.8491041823497488,
+      "balance_score": 0.0036101083032490976
+    },
+    "label_balance": {
+      "label_distribution": {
+        "1": 628,
+        "0": 567
+      },
+      "balance_ratio": 0.9028662420382165,
+      "majority_class_percentage": 0.5255230125523013
+    },
+    "text_complexity": {
+      "avg_word_count": 8.619665271966527,
+      "avg_word_length": 4.448405797101449,
+      "avg_sentence_length": 8.619665271966527,
+      "complexity_variance": 58.80129829659863
+    },
+    "semantic_diversity": {
+      "average_similarity": 0.39098920886861194,
+      "similarity_std": 0.11753275340793605,
+      "cluster_entropy": 3.1971701726281725,
+      "cluster_distribution": {
+        "0": 62,
+        "7": 35,
+        "9": 26,
+        "6": 45,
+        "3": 55,
+        "5": 75,
+        "1": 60,
+        "4": 59,
+        "8": 12,
+        "2": 71
+      }
+    }
+  },
+  "bias_detection": {
+    "gender_bias": {
+      "boy": {
+        "count": 1195,
+        "compatible_rate": 0.5255230125523013,
+        "categories": {
+          "lifestyle": 236,
+          "lifestyle_and_values": 105,
+          "interests": 277,
+          "dealbreakers": 180,
+          "values_and_interests": 119,
+          "values_and_lifestyle": 21,
+          "values": 151,
+          "lifestyle_and_interests": 20,
+          "interests_and_values": 25,
+          "dealbreakers_and_values": 3,
+          "dealbreakers_and_interests": 25,
+          "interests_and_lifestyle": 23,
+          "realistic_example": 5,
+          "values_and_dealbreakers": 1,
+          "lifestyle_and_dealbreakers": 4
+        }
+      },
+      "girl": {
+        "count": 1195,
+        "compatible_rate": 0.5255230125523013,
+        "categories": {
+          "lifestyle": 236,
+          "lifestyle_and_values": 105,
+          "interests": 277,
+          "dealbreakers": 180,
+          "values_and_interests": 119,
+          "values_and_lifestyle": 21,
+          "values": 151,
+          "lifestyle_and_interests": 20,
+          "interests_and_values": 25,
+          "dealbreakers_and_values": 3,
+          "dealbreakers_and_interests": 25,
+          "interests_and_lifestyle": 23,
+          "realistic_example": 5,
+          "values_and_dealbreakers": 1,
+          "lifestyle_and_dealbreakers": 4
+        }
+      }
+    },
+    "category_bias": {
+      "values_and_interests": {
+        "count": 119,
+        "compatible_rate": 0.907563025210084,
+        "bias_score": 0.40756302521008403
+      },
+      "interests_and_values": {
+        "count": 25,
+        "compatible_rate": 0.6,
+        "bias_score": 0.09999999999999998
+      },
+      "values": {
+        "count": 151,
+        "compatible_rate": 0.609271523178808,
+        "bias_score": 0.10927152317880795
+      },
+      "values_and_lifestyle": {
+        "count": 21,
+        "compatible_rate": 0.5714285714285714,
+        "bias_score": 0.0714285714285714
+      },
+      "realistic_example": {
+        "count": 5,
+        "compatible_rate": 0.2,
+        "bias_score": 0.3
+      },
+      "lifestyle_and_dealbreakers": {
+        "count": 4,
+        "compatible_rate": 0.0,
+        "bias_score": 0.5
+      },
+      "interests_and_lifestyle": {
+        "count": 23,
+        "compatible_rate": 0.391304347826087,
+        "bias_score": 0.10869565217391303
+      },
+      "lifestyle": {
+        "count": 236,
+        "compatible_rate": 0.6313559322033898,
+        "bias_score": 0.1313559322033898
+      },
+      "lifestyle_and_interests": {
+        "count": 20,
+        "compatible_rate": 0.35,
+        "bias_score": 0.15000000000000002
+      },
+      "values_and_dealbreakers": {
+        "count": 1,
+        "compatible_rate": 0.0,
+        "bias_score": 0.5
+      },
+      "interests": {
+        "count": 277,
+        "compatible_rate": 0.6823104693140795,
+        "bias_score": 0.18231046931407946
+      },
+      "dealbreakers_and_interests": {
+        "count": 25,
+        "compatible_rate": 0.12,
+        "bias_score": 0.38
+      },
+      "dealbreakers_and_values": {
+        "count": 3,
+        "compatible_rate": 0.0,
+        "bias_score": 0.5
+      },
+      "dealbreakers": {
+        "count": 180,
+        "compatible_rate": 0.0,
+        "bias_score": 0.5
+      },
+      "lifestyle_and_values": {
+        "count": 105,
+        "compatible_rate": 0.4095238095238095,
+        "bias_score": 0.09047619047619049
+      }
+    },
+    "label_bias": {
+      "total_samples": 1195,
+      "compatible_samples": 628,
+      "incompatible_samples": 567,
+      "compatible_rate": 0.5255230125523013,
+      "bias_severity": 0.025523012552301272,
+      "is_balanced": true
+    },
+    "length_bias": {
+      "compatible_avg_length": 89.52547770700637,
+      "incompatible_avg_length": 99.75308641975309,
+      "length_difference": 10.227608712746715,
+      "t_statistic": -4.253373748271084,
+      "t_pvalue": 2.2703790892884566e-05,
+      "significant_bias": true
+    },
+    "vocabulary_bias": {
+      "total_biased_words": 20,
+      "most_biased_words": {
+        "scenes": {
+          "compatible_count": 0,
+          "incompatible_count": 37,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "messiness": {
+          "compatible_count": 0,
+          "incompatible_count": 28,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "addiction": {
+          "compatible_count": 0,
+          "incompatible_count": 20,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "negativity": {
+          "compatible_count": 0,
+          "incompatible_count": 26,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "who": {
+          "compatible_count": 0,
+          "incompatible_count": 180,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "priorities": {
+          "compatible_count": 0,
+          "incompatible_count": 53,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "drug": {
+          "compatible_count": 0,
+          "incompatible_count": 40,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "workaholism": {
+          "compatible_count": 0,
+          "incompatible_count": 16,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "heavy": {
+          "compatible_count": 0,
+          "incompatible_count": 50,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "tradition": {
+          "compatible_count": 70,
+          "incompatible_count": 0,
+          "compatible_rate": 1.0,
+          "bias_score": 0.5
+        },
+        "laziness": {
+          "compatible_count": 0,
+          "incompatible_count": 30,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "use": {
+          "compatible_count": 0,
+          "incompatible_count": 40,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "media": {
+          "compatible_count": 0,
+          "incompatible_count": 24,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "obsession": {
+          "compatible_count": 0,
+          "incompatible_count": 24,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "drinking": {
+          "compatible_count": 0,
+          "incompatible_count": 50,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "controlling": {
+          "compatible_count": 0,
+          "incompatible_count": 35,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "being": {
+          "compatible_count": 70,
+          "incompatible_count": 0,
+          "compatible_rate": 1.0,
+          "bias_score": 0.5
+        },
+        "jealousy": {
+          "compatible_count": 0,
+          "incompatible_count": 32,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        },
+        "person": {
+          "compatible_count": 71,
+          "incompatible_count": 0,
+          "compatible_rate": 1.0,
+          "bias_score": 0.5
+        },
+        "bar": {
+          "compatible_count": 0,
+          "incompatible_count": 37,
+          "compatible_rate": 0.0,
+          "bias_score": 0.5
+        }
+      },
+      "compatible_vocab_size": 140,
+      "incompatible_vocab_size": 162
+    }
+  },
+  "linguistic_quality": {
+    "readability": {
+      "average_flesch_score": 56.7517429573179,
+      "readability_std": 21.792968776584477,
+      "readability_range": [
+        -35.11999999999995,
+        117.16000000000003
+      ]
+    },
+    "coherence": {
+      "average_coherence": 0.16837930120597588,
+      "coherence_std": 0.142444965783208,
+      "low_coherence_pairs": 385
+    },
+    "naturalness": {
+      "contractions": 0.6895397489539749,
+      "informal_words": 0.5690376569037657,
+      "first_person": 0.8677824267782427,
+      "questions": 0.0,
+      "exclamations": 0.0
+    },
+    "grammatical_patterns": {
+      "top_sentence_starters": {
+        "boy:": 1195,
+        "girl:": 1195
+      },
+      "top_phrases": {
+        "boy: i": 859,
+        "girl: i": 816,
+        "and i": 452,
+        "i love": 395,
+        "passionate about": 388,
+        "girl: i'm": 379,
+        "i really": 377,
+        "really enjoy": 377,
+        "but i": 339,
+        "boy: i'm": 336
+      },
+      "sentence_structure_distribution": {
+        "short": 60,
+        "medium": 1056,
+        "long": 79
+      }
+    },
+    "repetition_analysis": {
+      "exact_text_repetitions": 91,
+      "most_repeated_texts": {
+        "boy: I would never date someone who is into heavy drinking | girl: I adore heavy drinking": 5,
+        "boy: I would never date someone who is into drug use | girl: I'm passionate about drug use": 5,
+        "boy: I would never date someone who is into party lifestyle | girl: I adore party lifestyle": 5,
+        "boy: I would never date someone who is into drama | girl: I'm obsessed with drama": 4,
+        "boy: I would never date someone who is into jealousy | girl: I adore jealousy": 4,
+        "boy: I would never date someone who is into heavy drinking | girl: I'm all about heavy drinking": 4,
+        "boy: I would never date someone who is into party lifestyle | girl: I'm passionate about party lifestyle": 3,
+        "boy: I would never date someone who is into controlling behavior | girl: I'm passionate about controlling behavior": 3,
+        "boy: I would never date someone who is into gaming addiction | girl: I love gaming addiction": 3,
+        "boy: I would never date someone who is into smoking | girl: I'm passionate about smoking": 3
+      },
+      "phrase_repetitions": 13776,
+      "most_repeated_phrases": {
+        "i really enjoy": 377,
+        "i would never": 297,
+        "would never date": 239,
+        "never date someone": 238,
+        "i am passionate": 208,
+        "am passionate about": 208,
+        "boy: i would": 185,
+        "date someone who": 180,
+        "someone who is": 180,
+        "who is into": 180
+      },
+      "repetition_rate": 5.802092050209205
+    }
+  },
+  "overall_scores": {
+    "data_quality_score": 92.38,
+    "diversity_score": 53.69,
+    "bias_score": 94.9,
+    "linguistic_quality_score": 25.26,
+    "overall_score": 66.56
+  },
+  "recommendations": [
+    "Duplicate pair rate is 7.6%. Consider deduplicating before training to avoid overfitting.",
+    "Vocabulary richness is low. Add more varied wording, categories, or templates to improve diversity.",
+    "Category distribution is uneven. Ensure all categories are well-represented to avoid training bias.",
+    "Length bias is statistically significant. Vary sentence lengths across compatible and incompatible pairs.",
+    "Many words are strongly associated with one label. Review or diversify wording to reduce vocabulary bias.",
+    "Repetition rate is very high (100%+). Reduce exact or phrase-level repetition for more natural data.",
+    "Linguistic quality score is below 60%. Improve readability, coherence, or reduce repetition."
+  ]
+}

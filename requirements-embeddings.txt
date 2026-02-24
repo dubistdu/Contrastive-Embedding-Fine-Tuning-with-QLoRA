@@ -1,2 +1,21 @@
 sentence-transformers>=2.2.0
 numpy
+pandas>=1.3.0
+peft>=0.10.0
+datasets
+scipy
+torch
+transformers
+
+# 4-bit QLoRA (training/train_dating_embeddings_qlora.py). On Python 3.9, 4-bit requires CUDA; on Python 3.10+ use bitsandbytes>=0.43.1 for CPU/Mac.
+bitsandbytes>=0.41.0
+accelerate>=0.20.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+# Optional: baseline_analysis.py UMAP/HDBSCAN
+# umap-learn>=0.5.0
+# hdbscan>=0.8.0
+# Optional: interactive plots
+# plotly>=5.0.0

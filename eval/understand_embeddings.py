@@ -7,8 +7,12 @@ Minimal script to understand embeddings:
 """
 
 import argparse
-import json
 import os
+import sys
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO_ROOT))
 
 # --- Step 1: Evaluation pairs ---
 # Each pair has text_a, text_b, and compatible (True = should be similar, False = should be dissimilar).
@@ -38,29 +42,6 @@ EVAL_PAIRS = [
     {"text_a": "The sun rises in the east.", "text_b": "She bought a new laptop.", "compatible": False},
     {"text_a": "Water boils at 100 degrees.", "text_b": "Birds migrate in autumn.", "compatible": False},
 ]
-
-
-def load_pairs(path):
-    """Load pairs from JSON/JSONL. Supports text_1/text_2/label (0/1) or text_a/text_b/compatible."""
-    with open(path, "r", encoding="utf-8") as f:
-        raw = f.read().strip()
-    if path.endswith(".jsonl"):
-        items = [json.loads(line) for line in raw.splitlines() if line]
-    else:
-        items = json.loads(raw)
-    if not isinstance(items, list):
-        items = [items]
-    pairs = []
-    for p in items:
-        t1 = p.get("text_1") or p.get("text_a")
-        t2 = p.get("text_2") or p.get("text_b")
-        if "label" in p:
-            compatible = bool(int(p["label"]))
-        else:
-            c = p.get("compatible")
-            compatible = c if isinstance(c, bool) else str(c).lower() in ("1", "true", "yes")
-        pairs.append({"text_a": t1, "text_b": t2, "compatible": compatible})
-    return pairs
 
 
 # --- Step 2: Load model and generate embeddings ---
@@ -123,16 +104,17 @@ def cosine_similarities(emb_a, emb_b):
 
 if __name__ == "__main__":
     import numpy as np
-    from eval_metrics import accuracy, print_top_pairs, roc_auc
+    from eval_metrics import accuracy, load_pairs as load_pairs_df, print_top_pairs, roc_auc
 
     parser = argparse.ArgumentParser(description="Evaluate embeddings on compatible/incompatible pairs.")
-    default_data = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "eval_pairs.jsonl")
+    default_data = str(REPO_ROOT / "data" / "eval_pairs.jsonl")
     parser.add_argument("--data", type=str, default=default_data, help="Path to JSON/JSONL with pairs. Default: data/eval_pairs.jsonl if present.")
     parser.add_argument("--model", type=str, default="all-MiniLM-L6-v2", help="Model name or path. Use training/model/test_model to evaluate the fine-tuned model.")
     args = parser.parse_args()
 
     if os.path.isfile(args.data):
-        pairs = load_pairs(args.data)
+        df = load_pairs_df(args.data)
+        pairs = df[["text_a", "text_b", "compatible"]].to_dict("records")
         print("Loaded", len(pairs), "evaluation pairs from", args.data)
     else:
         pairs = EVAL_PAIRS

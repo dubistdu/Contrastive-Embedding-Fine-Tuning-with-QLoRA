@@ -1,0 +1,16 @@
+text_1,text_2,cosine_sim,category,pair_type
+boy: I'm a huge fan of small gatherings,girl: I love parties,0.9482,lifestyle,subtle_mismatch
+boy: I'm passionate about outdoor adventures,girl: I really enjoy sleeping in,0.9413,lifestyle,subtle_mismatch
+boy: I can't get enough of peaceful evenings,girl: I'm obsessed with social events,0.9303,lifestyle,subtle_mismatch
+boy: I love quiet weekends and reading but I value deep friendships,girl: I enjoy social gatherings and parties but I cherish meaningful relationships,0.7802,realistic_example,curated_realistic
+boy: I value art galleries and I really enjoy cooking but I hate party lifestyle,girl: I love art galleries but I value cooking and I would never date someone into party lifestyle,0.3854,lifestyle_and_interests,llm_judged_incompatible
+boy: I am passionate about theater and I am passionate about street food but I avoid party lifestyle,girl: I love art galleries but I value fine dining and I would never date someone into dishonesty,0.3034,lifestyle_and_values,llm_judged_incompatible
+boy: I love photography and I value street food but I avoid drug use,girl: I value photography but I value vegetarian food and I would never date someone into negativity,0.2933,interests,llm_judged_incompatible
+boy: I love theater and I value street food but I dislike bar scenes,girl: I really enjoy photography but I love fine dining and I would never date someone into jealousy,0.2869,interests,llm_judged_incompatible
+boy: I really enjoy photography and I am passionate about fine dining but I hate smoking,girl: I am passionate about art galleries but I am passionate about fine dining and I would never da,0.2618,dealbreakers_and_interests,llm_judged_incompatible
+boy: I love museums and I really enjoy trying new cuisines but I dislike drug use,girl: I really enjoy theater but I am passionate about cooking and I would never date someone into h,0.2436,dealbreakers_and_interests,llm_judged_incompatible
+boy: I value painting and I am passionate about street food but I hate smoking,girl: I really enjoy art galleries but I love fine dining and I would never date someone into dishon,0.2408,values_and_dealbreakers,llm_judged_incompatible
+boy: I am passionate about career growth but I value work-life balance and family time,girl: I love professional development and I prioritize family relationships,0.2385,realistic_example,curated_realistic
+boy: I am passionate about photography and I am passionate about trying new cuisines but I can't sta,girl: I value art galleries but I value vegetarian food and I would never date someone into bar scen,0.1751,lifestyle_and_interests,llm_judged_incompatible
+boy: I am passionate about painting and I love fine dining but I can't stand drug use,girl: I value photography but I really enjoy vegetarian food and I would never date someone into dra,0.1568,dealbreakers_and_interests,llm_judged_incompatible
+boy: I value museums and I really enjoy cooking but I can't stand dishonesty,girl: I value theater but I value vegetarian food and I would never date someone into smoking,0.1509,dealbreakers_and_values,llm_judged_incompatible

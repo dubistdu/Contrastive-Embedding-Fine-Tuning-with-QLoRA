@@ -1,0 +1,44 @@
+--- Comparing similarity metrics ---
+
+Baseline Model:
+  • Compatible mean:   0.4930 ± 0.2127
+  • Incompatible mean: 0.5746 ± 0.1761
+  • Margin:            -0.0816
+  • Effect size:      -0.4150
+  • P-value:          0.000469
+  • Classification (threshold 0.5):
+    Accuracy:         0.3878
+    Precision:        0.4258
+    Recall:           0.4204
+    F1-Score:         0.4231
+    AUC:              0.3746
+
+Fine-tuned Model:
+  • Compatible mean:   0.9300 ± 0.0453
+  • Incompatible mean: 0.0081 ± 0.1843
+  • Margin:            0.9219
+  • Effect size:      7.0888
+  • P-value:          0.000000
+  • Classification (threshold 0.5):
+    Accuracy:         0.9864
+    Precision:        0.9752
+    Recall:           1.0000
+    F1-Score:         0.9874
+    AUC:              0.9892
+
+--- Improvement ---
+  • Margin improvement:    1.0035
+  • Effect size improvement: 7.5038
+  • Margin improvement %:  1230.3%
+  • Accuracy: 0.3878 → 0.9864
+--- Baseline vs Fine-tuned comparison ---
+
+  Metric                    Baseline  Fine-tuned           Δ
+  ----------------------------------------------------------
+  Compatible mean             0.4930      0.9300     +0.4370
+  Incompatible mean           0.5746      0.0081     -0.5664
+  Margin                     -0.0816      0.9219     +1.0035
+  Effect size                -0.4150      7.0888     +7.5038
+  Accuracy                    0.3878      0.9864     +0.5986
+  F1-Score                    0.4231      0.9874     +0.5643
+  AUC                         0.3746      0.9892     +0.6146

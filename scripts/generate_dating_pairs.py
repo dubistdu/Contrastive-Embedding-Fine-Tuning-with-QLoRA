@@ -6,13 +6,11 @@ Creates diverse persona-based statements with compatibility labels.
 
 import json
 import random
-import os
 import numpy as np
 from typing import List, Dict, Tuple, Optional, Literal
 from pathlib import Path
 from pydantic import BaseModel, Field, field_validator
 from enum import Enum
-import time
 from datetime import datetime
 
 # Set random seed for reproducibility
@@ -900,9 +898,9 @@ def main():
 
     args = parser.parse_args()
 
-    # Create data directory if it doesn't exist
-    data_dir = Path(__file__).parent
-    data_dir.mkdir(exist_ok=True)
+    # Write outputs to repo data/ directory (whether run from repo root or scripts/)
+    data_dir = Path(__file__).resolve().parents[1] / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
 
     # Initialize generator
     use_llm_judge = (args.mode in ['enhanced', 'unified'])
@@ -984,7 +982,7 @@ def main():
     # Print comprehensive statistics
     print(f"\n📊 DATASET STATISTICS:")
     print("=" * 60)
-    print(f"� Training Dataset ({len(train_pairs)} pairs):")
+    print(f"  Training Dataset ({len(train_pairs)} pairs):")
     print(f"  • Compatible: {train_metadata.compatible_pairs}")
     print(f"  • Incompatible: {train_metadata.incompatible_pairs}")
     print(f"  • Dealbreakers: {train_metadata.dealbreaker_pairs}")

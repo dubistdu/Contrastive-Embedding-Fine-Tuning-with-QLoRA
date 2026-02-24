@@ -1,37 +1,19 @@
 """
 Inspect cosine similarity scores for compatible vs incompatible pairs.
-Usage: python inspect_pairs.py --data path/to/pairs.jsonl
+Usage: python scripts/inspect_pairs.py --data path/to/pairs.jsonl
 """
 
 import argparse
-import json
 import random
+import sys
+from pathlib import Path
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-
-def load_pairs(path):
-    """Load pairs. Supports text_1/text_2/label (0/1) or text_a/text_b/compatible."""
-    with open(path, "r", encoding="utf-8") as f:
-        raw = f.read().strip()
-    if path.endswith(".jsonl"):
-        items = [json.loads(line) for line in raw.splitlines() if line]
-    else:
-        items = json.loads(raw)
-    if not isinstance(items, list):
-        items = [items]
-    pairs = []
-    for p in items:
-        t1 = p.get("text_1") or p.get("text_a")
-        t2 = p.get("text_2") or p.get("text_b")
-        if "label" in p:
-            compatible = bool(int(p["label"]))
-        else:
-            c = p.get("compatible")
-            compatible = c if isinstance(c, bool) else str(c).lower() in ("1", "true", "yes")
-        pairs.append({"text_a": t1, "text_b": t2, "compatible": compatible})
-    return pairs
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO_ROOT))
+from eval_metrics import load_pairs
 
 
 def main():
@@ -40,12 +22,13 @@ def main():
     parser.add_argument("--seed", type=int, default=42, help="Random seed for sampling")
     args = parser.parse_args()
 
-    pairs = load_pairs(args.data)
+    df = load_pairs(args.data)
+    pairs = df[["text_a", "text_b", "compatible"]].to_dict("records")
     random.seed(args.seed)
 
-    texts_a = [p["text_a"] for p in pairs]
-    texts_b = [p["text_b"] for p in pairs]
-    compatible = np.array([p["compatible"] for p in pairs])
+    texts_a = df["text_a"].astype(str).tolist()
+    texts_b = df["text_b"].astype(str).tolist()
+    compatible = df["compatible"].values
 
     model = SentenceTransformer("all-MiniLM-L6-v2")
     emb_a = model.encode(texts_a)

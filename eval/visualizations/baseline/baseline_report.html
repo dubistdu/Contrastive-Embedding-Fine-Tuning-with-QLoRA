@@ -1,0 +1,20 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Baseline Analysis</title></head><body>
+<h1>Baseline embedding analysis (pre-training)</h1>
+<p>Model: <code>all-MiniLM-L6-v2</code> | Eval: <code>eval_pairs.jsonl</code></p>
+<h2>Key metrics</h2>
+<table border='1' cellpadding='6'>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Compatible mean similarity</td><td>0.4930 ± 0.2127</td></tr>
+<tr><td>Incompatible mean similarity</td><td>0.5746 ± 0.1761</td></tr>
+<tr><td>Margin (compat − incompat)</td><td>-0.0816</td></tr>
+<tr><td>Effect size (Cohen's d)</td><td>-0.4150</td></tr>
+<tr><td>P-value (t-test)</td><td>0.000469</td></tr>
+<tr><td>Accuracy (threshold 0.5)</td><td>0.3878</td></tr>
+<tr><td>F1-Score</td><td>0.4231</td></tr>
+<tr><td>AUC</td><td>0.3746</td></tr>
+<tr><td>False positive rate</td><td>0.6496</td></tr>
+</table>
+<p><a href='detailed_analysis.csv'>Download detailed_analysis.csv</a></p>
+<h2>UMAP visualization</h2>
+<img src='umap_baseline.png' alt='UMAP' width='700' />
+</body></html>

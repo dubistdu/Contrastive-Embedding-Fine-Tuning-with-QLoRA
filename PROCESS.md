@@ -1,8 +1,5 @@
 # Process & What Was Done
 
-This document lists everything that was done in this project, in order, so you can reproduce it or document the initial commit.
-
----
 
 ## 1. Project goal
 
@@ -65,9 +62,9 @@ This document lists everything that was done in this project, in order, so you c
 
 ## 4. Training
 
-- **Script**: `train_contrastive.py`
+- **Script**: `training/train_contrastive.py`
 - **Command**:  
-  `python3 train_contrastive.py --data data/dating_pairs_expanded.jsonl`
+  `python3 training/train_contrastive.py --data data/dating_pairs_expanded.jsonl`
 - **What it does**: Loads pairs (text_1, text_2, label), converts to (sentence1, sentence2, score 0.0/1.0), trains `SentenceTransformer("all-MiniLM-L6-v2")` with **CosineSimilarityLoss**, 3 epochs, batch 16, lr 2e-5.
 - **Output**: `training/model/expanded_model/` (and checkpoints). No commit was made on your behalf; you can add this path to `.gitignore` if you don’t want to track checkpoints.
 
@@ -75,23 +72,39 @@ This document lists everything that was done in this project, in order, so you c
 
 ## 5. Evaluation
 
-- **Script**: `understand_embeddings.py`
+### 5.1 Baseline vs fine-tuned comparison (4 plots)
+
+To (re)generate the graphs in `eval/visualizations/comparison/` (baseline distribution, fine-tuned distribution, ROC curves, metrics comparison), run from project root:
+
+```bash
+# Optional: refresh baseline metrics if eval data or baseline model changed
+python eval/baseline_analysis.py
+
+# Baseline vs fine-tuned comparison; writes 4 PNGs to eval/visualizations/comparison/
+python eval/evaluate_dating.py
+```
+
+Defaults: `--eval-data data/eval_pairs.jsonl`, `--baseline-model all-MiniLM-L6-v2`, `--finetuned-model training/model`, `--save-plots eval/visualizations/comparison`. Override with args if your paths differ (e.g. `--finetuned-model training/model/expanded_model`).
+
+### 5.2 Understand embeddings (metrics + top/bottom pairs)
+
+- **Script**: `eval/understand_embeddings.py`
 - **Usage**:
   - Fine-tuned model on eval set:  
-    `python3 understand_embeddings.py --model training/model/expanded_model --data data/eval_pairs.jsonl`
+    `python3 eval/understand_embeddings.py --model training/model/expanded_model --data data/eval_pairs.jsonl`
   - Base model (comparison):  
-    `python3 understand_embeddings.py --model all-MiniLM-L6-v2 --data data/eval_pairs.jsonl`
+    `python3 eval/understand_embeddings.py --model all-MiniLM-L6-v2 --data data/eval_pairs.jsonl`
   - OOD eval:  
-    `python3 understand_embeddings.py --model training/model/expanded_model --data data/ood_eval_pairs.jsonl`
-- **What it does**: Loads pairs, embeds with the given model, computes cosine similarity, and reports metrics (e.g. accuracy, ROC-AUC) and optionally top/bottom pairs. Uses `eval_metrics.py` for metric helpers.
+    `python3 eval/understand_embeddings.py --model training/model/expanded_model --data data/ood_eval_pairs.jsonl`
+- **What it does**: Loads pairs, embeds with the given model, computes cosine similarity, and reports metrics (e.g. accuracy, ROC-AUC) and optionally top/bottom pairs. Uses root `eval_metrics.py` for metric helpers.
 
 ---
 
 ## 6. Other scripts (no order dependency)
 
 - **`data/audit_training_pairs.py`**: Flags rows in `dating_pairs_expanded.jsonl` where label=1 but cosine &lt; 0.45 or label=0 but cosine &gt; 0.65; writes `data/flagged_pairs.jsonl` and can sample `data/weak_positives_bottom100.jsonl`.
-- **`inspect_pairs.py`**: Inspects cosine scores for any pairs file; `--data path/to/pairs.jsonl`.
-- **`eval_metrics.py`**: Shared helpers (roc_auc, accuracy, print_top_pairs) used by `understand_embeddings.py`.
+- **`scripts/inspect_pairs.py`**: Inspects cosine scores for any pairs file; `--data path/to/pairs.jsonl`.
+- **`eval_metrics.py`** (root): Shared helpers (roc_auc, accuracy, print_top_pairs) used by `eval/understand_embeddings.py`.
 
 ---
 
@@ -115,5 +128,5 @@ This document lists everything that was done in this project, in order, so you c
 
 ## 8. Summary for initial commit
 
-- **Done**: Data generation → expanded set → weak-positive filtering → manual N/X review → apply N-removal and X-relabel → train on 823 pairs → evaluate with `understand_embeddings.py`.
+- **Done**: Data generation → expanded set → weak-positive filtering → manual N/X review → apply N-removal and X-relabel → train on 823 pairs → evaluate with `eval/understand_embeddings.py`.
 - **Not done by assistant**: No `git commit` was run; you can run your initial commit yourself with this process and file manifest as reference.
